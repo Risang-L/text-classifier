@@ -1,0 +1,11 @@
+Copyright © 2025 Risang Latunra.
+
+The `.txt` files in this folder are provided for demonstration and evaluation purposes only.
+
+They may NOT be:
+- Reused
+- Modified
+- Redistributed
+- Used for training or commercial purposes
+
+Please contact the author for permission if needed.
