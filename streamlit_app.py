@@ -43,20 +43,22 @@ st.markdown("""
 
 # Validate input
 try:
-    selected_sample = int(selected_input)
-    if not (1 <= selected_sample <= 300):
-        st.sidebar.error("⚠️ Please enter a number between 1 and 300.")
-        st.stop()
+    if not selected_input.isdigit() or not (1 <= int(selected_input) <= 300):
+    st.sidebar.error("⚠️ Please enter a number between 1 and 300.")
+    st.stop()
+
+selected_sample = selected_input.zfill(3)
+
 except ValueError:
     st.sidebar.error("⚠️ Please enter a valid number.")
     st.stop()
 
-if selected_sample.zfill(3) not in sample_numbers:
+if selected_sample not in sample_numbers:
     st.error("❌ No sample file found for that number.")
     st.stop()
 
 # --- Load sample text and features ---
-txt_path = os.path.join(txt_folder, f"{selected_sample.zfill(3)}.txt")
+txt_path = os.path.join(txt_folder, f"{selected_sample}.txt")
 with open(txt_path, "r", encoding="utf-8") as file:
     sample_text = file.read()
 
