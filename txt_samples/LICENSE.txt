@@ -2,10 +2,11 @@ Copyright © 2025 Risang Latunra.
 
 The `.txt` files in this folder are provided for demonstration and evaluation purposes only.
 
-They may NOT be:
-- Reused
-- Modified
-- Redistributed
-- Used for training or commercial purposes
+You may NOT:
+- Reuse the data in your own research or projects
+- Modify or adapt the texts
+- Redistribute the files
+- Use them for training or benchmarking NLP models
+- Use them for any commercial purpose
 
 Please contact the author for permission if needed.
