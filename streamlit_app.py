@@ -43,11 +43,11 @@ st.markdown("""
 
 # Validate input
 try:
-if not selected_input.isdigit() or not (1 <= int(selected_input) <= 300):
-    st.sidebar.error("⚠️ Please enter a number between 1 and 300.")
-    st.stop()
+    if not selected_input.isdigit() or not (1 <= int(selected_input) <= 300):
+        st.sidebar.error("⚠️ Please enter a number between 1 and 300.")
+        st.stop()
 
-selected_sample = selected_input.zfill(3)
+    selected_sample = selected_input.zfill(3)
 
 except ValueError:
     st.sidebar.error("⚠️ Please enter a valid number.")
