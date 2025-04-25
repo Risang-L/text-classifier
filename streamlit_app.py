@@ -9,7 +9,7 @@ import os
 # --- Load model and data ---
 model_path = "clf_bin_model.pkl"
 csv_path = "X_binary.csv"
-txt_folder = r"C:\Users\LEGION\Downloads\nlp-syntax-project\notebooks\txt_samples"
+txt_folder = "txt_samples"
 
 model = joblib.load(model_path)
 X_test = pd.read_csv(csv_path)
