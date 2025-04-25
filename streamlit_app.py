@@ -62,7 +62,7 @@ txt_path = os.path.join(txt_folder, f"{selected_sample}.txt")
 with open(txt_path, "r", encoding="utf-8") as file:
     sample_text = file.read()
 
-tassc_index = selected_sample - 1
+tassc_index = int(selected_sample) - 1
 sample = X_test.iloc[[tassc_index]]
 
 # --- Prediction block ---
