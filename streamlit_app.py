@@ -16,7 +16,6 @@ X_test = pd.read_csv(csv_path)
 
 txt_files = [f for f in os.listdir(txt_folder) if f.endswith(".txt")]
 sample_numbers = sorted(f.replace(".txt", "") for f in txt_files)
-sample_numbers_str = [f"{num:03d}" for num in sample_numbers]
 
 # --- Sidebar UI ---
 st.sidebar.markdown("## ℹ️ About This App")
