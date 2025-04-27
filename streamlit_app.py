@@ -119,7 +119,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Tabs for layout
-tab1, tab2, tab3 = st.tabs(["📝 Text", "📋 Features", "📉 SHAP Contribution"])
+tab1, tab2, tab3 = st.tabs(["📝 Text", "📋 Values", "📉 SHAP Contribution"])
 
 # --- TAB 1: Text Sample ---
 with tab1:
@@ -136,7 +136,7 @@ with tab1:
 
 # --- TAB 2: Features ---
 with tab2:
-    st.subheader("📋 Syntactic Feature Values")
+    st.subheader("📋 Syntactic Complexity Indices Values")
     st.markdown("<div style='margin-top: -10px'></div>", unsafe_allow_html=True)
 
     st.dataframe(
