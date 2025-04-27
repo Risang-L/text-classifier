@@ -172,7 +172,7 @@ with tab2:
 
 # --- TAB 3: SHAP Contribution ---
 with tab3:
-    st.subheader("🔍 Top 3 Contributing Features")
+    st.subheader("🔍 Top 3 Contributing Indices")
     st.markdown("<div style='margin-top: -10px'></div>", unsafe_allow_html=True)
 
     explainer = shap.Explainer(model)
