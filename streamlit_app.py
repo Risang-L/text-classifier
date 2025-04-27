@@ -143,7 +143,7 @@ with tab2:
         sample.T.rename(columns={sample.index[0]: f"Sample {selected_sample}"}).rename_axis("Index")
     )
 
-    with st.expander("📘 Feature Definitions (Click to Expand)"):
+    with st.expander("📘 Indices Definitions (Click to Expand)"):
         st.markdown("""
             <div style="padding: 20px; border-radius: 10px;">
                 <div style="display: flex; justify-content: space-between; gap: 40px; flex-wrap: wrap;">
