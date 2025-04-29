@@ -19,7 +19,7 @@ sample_numbers = sorted([f.replace(".txt", "") for f in txt_files])
 
 # --- Sidebar UI ---
 st.sidebar.markdown("## ℹ️ About This App")
-st.sidebar.info("This app classifies texts as AI or SLW (Second Language Writers) using syntactic features and shows SHAP Contribution Plot.")
+st.sidebar.info("This app classifies texts as AI or SLW (Second Language Writers) using syntactic complexity indices and shows SHAP Contribution Plot.")
 
 st.sidebar.markdown("---")
 st.sidebar.markdown("#### Choose a sample number (1 to 300)")
