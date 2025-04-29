@@ -22,7 +22,7 @@ Predictions are supported by SHAP contribution plots, showing how each feature i
 
 ---
 
-## 📄 Data Overview
+## Data Overview
 
 The dataset consists of 300 text samples divided into three categories:
 - **1–100**: Human-written texts by second language writers (SLW)
