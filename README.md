@@ -2,6 +2,7 @@
 This project was built as a personal learning project to explore linguistic data science, and syntactic complexity modeling.
 
 [Live App](https://text-classifier-cgjwcf54nng8fax4cuszie.streamlit.app/)
+
 ---
 
 ## Features
