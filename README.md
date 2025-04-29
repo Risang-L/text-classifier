@@ -16,7 +16,7 @@ This project was built as a personal learning project to explore linguistic data
 
 ## About the syntactic Complexity Indices
 
-The classifier uses L2SCA Indices by TAASSC
+The classifier uses L2SCA Indices by [TAASSC](https://www.linguisticanalysistools.org/taassc.html/)
 
 Predictions are supported by SHAP contribution plots, showing how each feature influences the outcome toward AI or SLW.
 
