@@ -29,7 +29,7 @@ The dataset consists of 300 text samples divided into three categories:
 - **101–200**: AI-generated texts using general prompts
 - **201–300**: AI-generated texts created by prompting large language models (LLMs) to mimic SLW writing style
 
-Data prepocessing handled by TAASSC
+Data prepocessing by TAASSC
 
 ---
 
