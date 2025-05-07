@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import os
 
 # --- Load model and data ---
-model_path = "clf_bin_model.pkl"
+model_path = "model_xgb.pkl"
 csv_path = "X_binary.csv"
 txt_folder = "txt_samples"
 
